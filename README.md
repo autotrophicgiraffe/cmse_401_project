@@ -21,6 +21,9 @@ This enables you to utilize Julia on your system.
 To run a julia script:
 -   julia name_of_script.jl
 
+For HPCC
+-   module load julia/1.5.2 (or most recent version)
+
 #########################################
 
 #		ADD PACKAGES		#
