@@ -44,9 +44,23 @@ For most of the files in the repo, the following commands will need to be run to
 If there are still packages that are not installed, install using same format as above.
 
 Test if you can run the code by navigating to the code folder within the repo and running:
--   julia amg_eb.jl
+-   julia main.jl
 May be warnings about assignments... go ahead and ignore these.
 Should run and produce several .txt files. If no h.txt file exists then something has gone wrong.
+
+#########################################
+
+#              THE CODE                 #
+
+#########################################
+
+The code for the wave project is contained within the wave_fast folder. I unfortunately could not manage to move the entire EB git repository into my git repository, so I simply added the wave_fast folder. This contains the main.jl file that is required to run the code.
+
+If you want to run in parallel, simply open julia by typing 
+
+"julia --threads 4"
+
+This will open julia with four threads. To run the code then type "include("main.jl"). This will run the code with 4 threads.
 
 #########################################
 
